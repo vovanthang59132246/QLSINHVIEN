@@ -7,7 +7,7 @@
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<link rel="stylesheet" type="text/css" href="css/qlsv.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
     <body>
 
@@ -27,7 +27,15 @@
         <div class="txt_field">
           <input type="text" name="fullname" required>
           <span></span>
-          <label>họ và tên</label>
+          <label>Họ và tên</label>
+        </div>
+  
+        <div class="txt_field">
+        <span></span>
+        <input type="date" id="start" name="date"
+       value="2000-07-22"
+       min="1990-01-01" max="2021-12-31">
+         
         </div>
         <div class="">
         <label for="text">Giới tính</label>
@@ -41,6 +49,9 @@
         </div>
         <div>
        <input class="button" type="submit" value="Đăng ký" /></br>
+</div>
+<div class="signup_link">
+          <a>create by Vo Van Thang</a>
 </div>
       </form>
     </div>
