@@ -16,6 +16,7 @@
     $pass   = $_POST['pass'];
     $fullname   = $_POST['fullname'];
     $sex        = $_POST['sex'];
+    $date    = $_POST['date'];
           
     //Kiểm tra người dùng đã nhập liệu đầy đủ chưa
     if (!$user || !$pass || !$fullname || !$sex)
@@ -35,15 +36,21 @@
 
           
     //Lưu thông tin thành viên vào bảng
-    if($conn -> query("INSERT INTO `member`(`user`, `pass`, `fullname`, `sex`) 
+    if($conn -> query("INSERT INTO `member`(`user`, `pass`, `fullname`, `sex`,`birthday`) 
 
-    VALUES ('$user','$pass','$fullname','$sex')")){
+    VALUES ('$user','$pass','$fullname','$sex','$date')")){
                           
     //Thông báo quá trình lưu
-    
-        echo "Quá trình đăng ký thành công. <a href='/'>Về trang chủ</a>";}
+    echo '<script language="javascript">';
+   
+        echo 'alert("Quá trình đăng ký thành công.Đi đến trang đăng nhập")';
+        echo '</script>';
+        header( "refresh:4;url=login.php" );
+    }
     else
     {
 
-        echo "Có lỗi xảy ra trong quá trình đăng ký. <a href='login.php'>Thử lại</a>";}
+        echo "Có lỗi xảy ra trong quá trình đăng ký. <a href='register.php'>Thử lại</a>";
+        
+    }
 ?>
