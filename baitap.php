@@ -37,9 +37,9 @@
                       <li><a href="lop.php"><i class="fa fa-users" aria-hidden="true"></i>LỚP</a></li>
                       <li><a  href="sinhvien.php" ><i class="fa fa-graduation-cap" aria-hidden="true"></i>SINH VIÊN</a></li>
                       <li><a  href="giangvien.php"><i class="fa fa-users" aria-hidden="true"></i>GIẢNG VIÊN</a></li>
-                      <li><a id="current"  href="diemthi.php"><i class="fa fa-check" aria-hidden="true"></i>ĐIỂM THI</a></li>
+                      <li><a href="diemthi.php"><i class="fa fa-check" aria-hidden="true"></i>ĐIỂM THI</a></li>
                       <li><a href="contact.php"><i class="fa fa-address-book" aria-hidden="true"  ></i>CONTACT</a></li>
-                      <li><a href="baitap.php"><i class="fa fa-book" aria-hidden="true"></i>BÀI TẬP</a></li>
+                      <li><a id="current"  href="baitap.php"><i class="fa fa-book" aria-hidden="true"></i>BÀI TẬP</a></li>
 
 
                   </ul>
