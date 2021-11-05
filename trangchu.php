@@ -13,7 +13,7 @@ $result = mysqli_query($conn, $query);
     <script src="https://use.fontawesome.com/aefb9ecc2c.js"></script>
     
     <title>Trang chủ</title>
-    <link rel="stylesheet" href="css/qlsv.css">
+    <link rel="stylesheet" href="css/qlsvs.css">
 
 
 
