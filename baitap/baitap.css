@@ -1,0 +1,42 @@
+.a1{
+    background-color: chocolate;
+    color:crimson;
+}
+.a2 a {
+    background-color: #eee;
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+.a2 a:hover {
+    background-color: #ccc;
+  }
+.a2 a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+body {
+ background: #eec;
+  }
+table {
+  width: 370px;
+	height: 200px;
+}
+.a3{
+  background-color: rgb(231, 16, 106);
+    color:rgb(255, 255, 255);
+}
+.a6{
+  background-color: rgb(5, 143, 185);
+    color:rgb(250, 246, 247);
+}
+.a4{
+  background-color: rgb(77, 204, 243);
+}
+.a7{
+  color:blue;
+}
+.a8{
+  color:red;
+}
